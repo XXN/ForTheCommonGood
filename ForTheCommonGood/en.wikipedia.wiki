@@ -80,6 +80,10 @@ IfContains={{split media
 Message=The file is tagged with {{split media}}. Click "Select version..." above to view earlier versions;  you may need to transfer each one separately.
 
 [Replacement]
+LookFor=\| *Location *= *\n*(\||\}\})
+ReplaceWith=$1
+
+[Replacement]
 LookFor={{orphan image.*}}\n?
 ReplaceWith=
 
