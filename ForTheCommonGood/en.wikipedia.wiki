@@ -10,8 +10,8 @@ LocalFtcgPage=w:en:WP:FTCG
 
 Category1=Copy to Wikimedia Commons
 Category2=Copy to Wikimedia Commons (bot-assessed)
-Category3=Move to Commons Priority Candidates
-DefaultCategory=3
+Category3=
+DefaultCategory=1
 
 Information=Information
 Description=Description
@@ -90,6 +90,10 @@ ReplaceWith=
 [Replacement]
 LookFor={{needs commons category}}
 ReplaceWith=
+
+[Replacement]
+LookFor={{Convert to SVG and copy to Wikimedia Commons}}
+ReplaceWith={{SVG}}
 
 [Replacement]
 LookFor={{(bots|nobots|Wikipedia:Bots/Status/template)[^\}]*}}
